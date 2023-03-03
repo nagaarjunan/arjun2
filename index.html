@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/helo.css">
+    <script src="https://kit.fontawesome.com/d1e7086829.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white container">
+      <a class="navbar-brand" href="#"><img src="image/guvi.png" alt="guvimg" class="guviimg">GUVI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto pr-10px">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home" id="home"><h5>Home</h5></a>
+          </li>
+          <li class="nav-item">
+            <!---------------------------------------------------->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <h5>Course</h5>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#data science">Data sceince</a></li>
+                <li><a class="dropdown-item" href="#wep development">Wep Development</a></li>
+                <li><a class="dropdown-item" href="#app"> App Development</li>
+                  <hr>
+                <li><a class="dropdown-item" href="#more">More</a></li>
+              </ul>
+            </li>
+            <!------------------------------------------------------>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><h5>Contact</h5></a>
+          </li>
+          <li class="nav-item">
+            <img src="image/login.png" alt="login face" class="loginface">
+            
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <div class="container" class="banner">
+    <!------------------------------------------------------------------------------------
+    <img src="image/guvibg.jpg" alt="guvibg" style="width: 100%;height: 650px;" class="img-responsive">
+    <img src="image/guvibg2.jpg" alt="guvibg" style="width: 100%;height: 650px;" class="img-responsive">
+    <img src="image/guvibg3.png" alt="guvibg" style="width: 100%;height: 650px;" class="img-responsive">
+    <!------------------------------------------------------------------------------------------------->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="1000" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/guvibg.jpg" class="d-block w-100" alt="guviimg" style="width: 100%;height: 650px;">
+        </div>
+        <div class="carousel-item">
+          <img src="image/guvibg2.jpg" class="d-block w-100" alt="guviimg" style="width: 100%;height: 650px;">
+          
+        </div>
+        <div class="carousel-item">
+          <img src="image/guvibg3.png" class="d-block w-100" alt="guviimg" style="width: 100%;height: 650px;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </div>
+<div class="container-lg container-fluid-sm course my-5" id="course">
+    <h1 class="text-center course">Course</h1>
+    <h3>Programming languages</h3>
+    <div class="row">
+      <div class="col-lg-3 clo-sm-5 text-center"><a href="https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S" target="_blank" style="text-decoration: none;color: black;">
+        <div class="card text-center my-5" style="width: 18rem;" >
+          <img src="image/code1.jpg" class="card-img-top courseimg" alt="code" style="height: 165px;">
+          <div class="card-body">
+            <div class="card-title my-4">
+              <p class="card-text text-black" style="align-items: center;"><b>C Programming</b></a></p></div>
+            <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span style="padding: 4px;">6h</span></p></a>
+          </div>
+        </div>
+       
+      </div>
+      <div class="col-lg-3 clo-sm-5 my-5"> 
+        <div class="card text-center" style="width: 18rem;">
+          <img src="image/code2.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body"><a href="https://www.youtube.com/watch?v=ZzaPdXTrSb8" target="_blank" style="text-decoration: none; color: black;">
+            <p class="card-text card-title my-4"><b>c++ Programming</b><span class="badge bg-success text-black pl-7 " style="margin-left: 12px;">Free</span></p>
+            <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>1h</span></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 clo-sm-5 my-5"> 
+        <div class="card text-center" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=qH7m9ik3ILs" target="_blank" style="text-decoration: none; color: black;">
+          <img src="image/code2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text card-title my-4"><b>c++ Programming</b><span class="badge bg-primary text-black pl-7 " style="margin-left: 12px;">primeum</span></p>
+            <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>8h</span></p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-5 my-5"> 
+        <div class="card text-center" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=yC9ZwDfT3b0" target="_blank" style="text-decoration: none; color: black;">
+          <img src="image/code1.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+          <div class="card-body">
+            <p class="card-text card-title my-4"><b>Java</b> <span class="badge bg-primary text-black pl-7 " style="margin-left: 3%;">primeum</span></p>
+            <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>11h</span></p></a>
+            
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+<!----------------------------------------------------------------second page----------------------------------------------------->
+<div class="container-lg container-fluid-sm"  style="margin-bottom: 3%;">
+  <h2 class="text-center" id="data science">Data sceince</h2>
+<div class="row">
+  <div class="col-lg-3 col-sm-12 my-5">
+    <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=GwIo3gDZCVQ" target="_blank" style="text-decoration: none; color: black;">
+
+      <img src="image/cooding1.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+      <div class="card-body">
+        <p class="card-text card-title my-4 text-center"><b>Machine Learning</b> <span class="badge bg-primary text-black pl-7" style="margin-left: 2%;">premium</span></p>
+        <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>9h</span></p></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-12 my-5">
+    <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=CaqJ65CIoMw" target="_blank" style=" text-decoration: none;color: black;">
+      <img src="image/cooding2.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+      <div class="card-body">
+        <p class="card-text card-title my-4 text-center"><b>Data Analytics</b><span class="badge bg-success text-black pl-7" style="margin-left: 3%;">Free</span></p> 
+        <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>10h</span></p></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-12 my-5">
+    <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=By_orPF6SQA" target="_blank" style="text-decoration: none;color: black;">
+      <img src="image/cooding3.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+      <div class="card-body">
+        <p class="card-text card-title my-4 text-center"><b>Data Analytics</b><span class="badge bg-success text-black pl-7" style="margin-left: 3%;">Free</span></p> 
+        <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>3h</span></p></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-sm-12 my-5">
+    <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=JL_grPUnXzY&list=PLeo1K3hjS3us_ELKYSj_Fth2tIEkdKXvV" target="_blank" style="text-decoration: none; color: black;">
+      <img src="image/cooding4.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+      <div class="card-body">
+        <p class="card-text card-title my-4 text-center"><b>Data science</b><span class="badge bg-primary text-black pl-7" style="margin-left: 3%;">premium</span></p> 
+        <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>16h</span></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!----------------------------------------------------------third page---------------------------------------------------------->
+<div class="container-lg container-fluid-sm">
+  <div class="row">
+    <h2 class="text-center" id="wep development">Wep Development</h2>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=ZHhk0MI05jc&list=PLpYn3LR7eQI2trAr1z1lmvYGAQfsbllY5" target="_blank" style="text-decoration: none;color: black;">
+        <img src="image/htmlimg.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>HTML</b><span class="badge bg-success text-black pl-7" style="margin-left: 3%;">Free</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>11h</span></p></a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=8mVqJSgivAA" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/cssimg.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>CSS</b><span class="badge bg-success text-black pl-7" style="margin-left: 3%;">Free</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>5h</span></p></a>
+        </div>
+      </div> 
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=jS4aFq5-91M" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/javascript.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>javascript</b><span class="badge bg-primary text-black pl-7" style="margin-left: 3%;">premium</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>7h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=8eJJe4Slnik" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/mangodp.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>Mango Db</b><span class="badge bg-danger text-black pl-7" style="margin-left: 3%;">Amomic</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Maliaiyalam</span><i class="fa-regular fa-clock" style="padding-left:80px;"></i><span>8h</span></p></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--------------------------------------------------------------fourth page---------------------------------------->
+<div class="container-lg container-fluid-sm">
+  <div class="row">
+    <h2 class="text-center" id="app">App Development</h2>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=yC9ZwDfT3b0" target="_blank" style="text-decoration: none;color: black;"> 
+        <img src="image/javaing.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>Java</b><span class="badge bg-danger text-black pl-7" style="margin-left: 3%;">Atomic</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>11h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=F9UC9DY-vIU" target="_blank" style="text-decoration: none;color: black;">
+        <img src="image/kotlin.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>Kotlin</b><span class="badge bg-success text-black pl-7" style="margin-left: 3%;">Free</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>3h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=CwA1VWP0Ldw" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/swifth.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>swift</b><span class="badge bg-primary text-black pl-7" style="margin-left: 3%;">premium</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>10h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=Oe421EPjeBE" target="_blank" style="text-decoration: none;color: black;">
+        <img src="image/nodejs.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>Node js</b><span class="badge bg-primary text-black pl-7" style="margin-left: 3%;">premium</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>8h</span></p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------------------fivth page------------------------------------------------------------>
+<div class="container-lg container-fluid-sm" id="more">
+  <div class="row">
+    <h2 class="text-center">Data Base</h2>
+    <div class="col-lg-3 col-sm-12 my-5"><a href="https://www.youtube.com/watch?v=4cWkVbC2bNE" target="_blank" style="text-decoration: none; color: black;">
+      <div class="card" style="width: 18rem;">
+        <img src="image/database.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>Data Base</b><span class="badge bg-danger text-black pl-7" style="margin-left: 3%;">Atomic</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>16h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=HXV3zeQKqGY" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/database2.png" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>SQL</b><span class="badge bg-success text-black pl-7" style="margin-left: 3%;">Free</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>4h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=SOTamWNgDKc" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/AWS.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>AWS Cloude</b><span class="badge bg-danger text-black pl-7" style="margin-left: 3%;">atamic</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>Tamil</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>12h</span></p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 my-5">
+      <div class="card" style="width: 18rem;"><a href="https://www.youtube.com/watch?v=7S_tz1z_5bA" target="_blank" style="text-decoration: none; color: black;">
+        <img src="image/sqlite.jpg" class="card-img-top" alt="..." style="width:100%; height: 165px;">
+        <div class="card-body">
+          <p class="card-text card-title my-4 text-center"><b>My SQL</b><span class="badge bg-primary text-black pl-7" style="margin-left: 3%;">premium</span></p> 
+          <p class="text-muted" style="text-align: left;"><i class="fa-solid fa-earth-americas" style="padding: 5px;"></i><span>English</span><i class="fa-regular fa-clock" style="padding-left: 120px;"></i><span>3h</span></p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------------------------------------------------------------------Contact page------------------------------------------->
+<h2 class="taxt-center container" id="contact">Contact Us</h2>
+<div class="container contact my-5">
+  <div class="row">
+    <div class="col-lg-5">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+    </div>
+      <div class="col-lg-5 col-sm-12  text-white" style="margin-top: 4%;margin-left: 5%;">
+        <h6><i class="fa-sharp fa-solid fa-location-dot" style="padding: 10px;"></i>17-13-9,northstreet,jakkampatti,theni(625512)</h6>
+        <h6><i class="fa-solid fa-phone" style="padding: 10px;"></i>9092852915</h6>
+        <h6><i class="fa-solid fa-envelope" style="padding: 10px;"></i>Arjunarjun64030@gmail.com</h6>
+        <hr style="width: 70%;">
+        <div style="padding:10px;" class="align-items-center">
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook text-white" style="padding: 10px;"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitter text-white" style="padding: 10px;"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram text-white" style="padding: 10px;"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-linkedin text-white" style="padding: 10px;"></i></a>
+        </div>
+      
+    </div>
+  </div>
+
+
+
+</div>
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+</body>
+</html>

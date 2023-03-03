@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    background-color: black;
+    margin: 0px auto;
+    height: 900px;
+
+} 
+.container img{
+    width: 12%;
+}
+.container ul{
+    float: right;
+}
+.container ul li{
+    display: inline-block;
+    padding: 35px;
+    font-size: 20px;
+}
+.container ul li a{
+    color: white;
+    text-decoration: none;
+}
+.container ul li a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.content{
+    color: white;
+    margin-top:250px ;
+    width: 50%;
+    display: inline-block;
+}
+.content h1{
+    font-size: 420%;
+    font-weight: bold;
+}
+.content h3{
+    font-size: 25px;
+    
+    padding-top: 30px;
+}
+span{
+    color: red;
+}
+.photo{
+    width: 100%;
+    height: 500px;
+    float: right;
+    margin-bottom: 400px;
+    
+}
+.skill{
+    margin-top: 50px;
+}

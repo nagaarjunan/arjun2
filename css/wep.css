@@ -1,0 +1,78 @@
+
+body{
+    font-size: bold;
+}
+.firstpage{
+    background-color: red;
+    
+}
+.navbar-nav{
+    align-items: left;
+    font-size: 130%;
+    padding: 20px;
+}
+.text1{
+    font-size: 400%;
+    line-height:1.5;
+    margin-top: 25%;
+}
+
+.img{
+
+    margin: 18% auto;
+    justify-content: center;
+    align-items: center;
+}
+.dounload{
+    margin: 5%;
+}
+.image{
+    margin: 0px auto;
+    width: 100%;
+}
+.nextpage{
+    margin-top: 8%;
+}
+.foodimage{
+    size: 20%;
+}
+.texttimonial{
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+}
+
+.textimage{
+    width: 50%;
+    align-items: center;
+    border-radius: 50%;
+}
+#carouselExampleAutoplaying{
+    align-items: center;
+    margin-top: 10%;
+}
+.carousel slide{
+    
+    margin: 0px auto;
+
+}
+.menu{
+    margin-top: 6%;
+}
+.item{
+    margin-top: 3%;
+}
+.brand{
+    align-items: center;
+}
+.brand name{
+    margin-top: 10%;
+    margin: 0px auto;
+}
+.end{
+    background-color: red;
+    height: 40px;
+}
+ 
+ 

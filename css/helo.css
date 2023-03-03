@@ -1,0 +1,30 @@
+body{
+    margin: 2%;
+    scroll-behavior: smooth;
+}
+.guviimg{
+    width: 50px;
+}
+.button{
+    margin-left: 56%;
+}
+.loginface{
+    width: 50px;
+}
+.guvibg{
+    width: 300px;
+}
+.banner{
+    margin-top: 2%;
+}
+.course{
+    margin-top: 4%;
+}
+.course{
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    background-color: green;
+    height: auto;
+}

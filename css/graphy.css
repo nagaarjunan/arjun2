@@ -1,0 +1,184 @@
+.mountain{
+    width: 100%;
+    margin-bottom: 0;
+}
+.main{
+    font-size: 430%;
+}
+.second{
+    font-size: 250%;
+}
+.set{
+    margin-top:6%;
+    padding: 10%;
+}
+h1{
+    font-weight: bold;
+    padding: 20px;
+    color: aqua;
+    font-size: 40px;  
+}
+h2{
+    color: aqua;
+    padding: 10px;
+}
+h4{
+    line-height: 2;
+}
+img{
+    margin-top:20%;
+}
+
+.text{
+    margin-top: 7%;
+    padding: 10%;
+}
+.cards{
+    padding: 35%;
+
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.navbar-nav{
+    font-size: 1.3rem;
+
+}
+.nav-link:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.skill{
+    width: 70%;
+    margin: 0px auto;
+    margin-top:12%;
+}
+.carde{
+    width: 80%;
+    align-items: center;
+    display: inline;
+
+}
+.contents{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+.content1{
+    width: 32%;
+    float: left;
+    border: 1px solid wheat;
+    text-align: center;
+}
+.content2{
+    width: 32%;
+    float: left;
+    border: 1px solid wheat;
+    margin-left: 2%;
+    text-align: center;
+}    
+.content3{
+    width: 32%;
+    float: right;
+    border: 1px solid wheat;
+    text-align: center;
+}
+.content1 p{
+    color: wheat;
+    font-size: 20px;
+    line-height: 2;
+}
+.content2 p{
+    color: wheat;
+    font-size: 20px;
+    line-height: 2;
+}
+.content3 p{
+    color: wheat;
+    font-size: 20px;
+    line-height: 2;
+
+}
+.a{
+    width: 80%;
+    margin: 0px auto;
+    margin-top:8%;
+
+}
+
+.card1{
+    
+    align-items: center;
+    line-height: 2;
+    font-size: 25px;
+    
+}
+.card2{
+    align-items: center;
+    line-height: 2;
+    font-size: 25px;
+}
+.card3{
+    align-items: center;
+    line-height: 2;
+    font-size: 25px;
+}
+.contect{
+    width: 80%;
+    margin: 0px auto;
+    margin-top:8%;
+}
+.email{
+    font-size: 35px;
+
+}
+.mail{
+    font-size: 35px;
+    
+
+}
+.emailid{
+    font-size: 25px;
+    color: white;
+}
+.textarea{
+    font-size:35px ;
+    color: white;
+}
+.number{
+    font-size: 25px;
+}
+.contect{
+    border: 1px solid white;
+}
+.mydetail{
+    border: 1px solid white;
+}
+.fooder{
+    display: inline-block;
+    width: 100%;
+    margin-top: 4%;
+
+}
+.fooder ul li{
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+}
+.fooder ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.closer{
+    float: right;
+}
+
+
+
+
+
+

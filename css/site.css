@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backimage{
+    width: 100%;
+
+}
+h1{
+    font-size: 29px;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.photo{
+    border-radius: 50%;
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top:50px;
+}
+.first{
+    color: green;
+}
+.content{
+    width: 60%;
+    margin: 0px auto;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+}
+.content h1{
+    font-size: 25px;
+    color: rgb(8, 118, 8);
+    text-decoration: underline;
+}
+.content p{
+    margin-top: 30px;
+}
+.content2{
+    margin-top:50px;
+    margin-left: 20px;
+}
+.icon{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-top: 50px;
+}
+.second{
+    color: green;
+}
+.content2 p{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 2;
+}
+.hello{
+    width: 60%;
+    margin-top:50px;
+    margin: 0px auto;
+}
+.hello h2{
+    color:rgb(21, 214, 21) ;
+}
+    
+.hi{
+    width: 60%;
+    margin: 0px auto;
+
+}
+.icon2{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-top: 50px;
+}
+.content3 p{
+    font-size: 25px;
+    width: 30%;
+    float: right;
+    margin-top: 200px;
+
+}
+.hi img{
+    height: 200px;
+    margin-right:250px;
+    margin-top:50px;
+    width:40%;
+}
+.content3{
+    margin-top: 200px;
+}
